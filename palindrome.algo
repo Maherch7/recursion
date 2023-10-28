@@ -1,7 +1,6 @@
-FUNCTION palindrome(STR,d,f) : RETURN TRUE
+FUNCTION palindrome(STR,d,f) : BOOLEAN
 VAR
-    str : STRING ;
-    d,f : INTEGER ;
+
 BEGIN
     IF (d = f) THEN 
     RETURN TRUE ;
